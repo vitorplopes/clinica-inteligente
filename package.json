@@ -44,6 +44,9 @@
     "zone.js": "0.5.15",
     "typings": "^0.6.9",
     "main-bower-files": "^2.11.1",
+    "coveralls": "^2.11.8",
+    "del": "~2.2.0",
+    "glob": "^7.0.0",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.1",
     "gulp-if": "~2.0.0",
@@ -56,13 +59,7 @@
     "gulp-tslint": "^4.3.3",
     "gulp-typescript": "~2.12.0",
     "gulp-uglify": "~1.5.3",
-    "gulp-useref": "~3.0.7"
-  },
-  "devDependencies": {
-    "coveralls": "^2.11.8",
-    "del": "~2.2.0",
-    "glob": "^7.0.0",
-
+    "gulp-useref": "~3.0.7",
     "jasmine-core": "~2.4.1",
     "karma": "~0.13.21",
     "karma-coverage": "~0.5.3",
@@ -79,5 +76,10 @@
     "systemjs-builder": "~0.15.10",
     "traceur": "~0.0.103",
     "tslint": "^3.5.0"
+  },
+  "devDependencies": {
+
+
+
   }
 }
