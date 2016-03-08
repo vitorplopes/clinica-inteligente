@@ -13,8 +13,7 @@
     "npm": "3.6.0"
   },
   "scripts": {
-    "preinstall": "bower install",
-    "postinstall": "typings install",
+    "postinstall": ["bower install", "typings install"],
     "start": "gulp",
     "test": "gulp test",
     "coveralls": "node ./node_modules/coveralls/bin/coveralls.js < ./report/remap/lcov.info"
