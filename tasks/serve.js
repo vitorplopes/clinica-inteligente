@@ -8,7 +8,7 @@ var path = require('path');
 gulp.task('serve-dev', ['wiredep', 'tsc-app', 'watch-ts', 'watch-sass'], function () {
     //liveServer.start(config.liveServer.dev);
     connect.server({
-      root: path.resolve('./'),
+      root: path.resolve('./index'),
       port: process.env.PORT || 5000, // localhost:5000
       livereload: false
     });
