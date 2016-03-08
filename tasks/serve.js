@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var liveServer = require('live-server');
 var config = require('../gulp.config')();
+var connect = require('gulp-connect');
 
 /* Start live server dev mode */
 gulp.task('serve-dev', ['wiredep', 'tsc-app', 'watch-ts', 'watch-sass'], function () {
