@@ -7,7 +7,7 @@ var connect = require('gulp-connect');
 gulp.task('serve-dev', ['wiredep', 'tsc-app', 'watch-ts', 'watch-sass'], function () {
     //liveServer.start(config.liveServer.dev);
     connect.server({
-      root: [__dirname],
+      root: '',
       port: process.env.PORT || 5000, // localhost:5000
       livereload: false
     });
