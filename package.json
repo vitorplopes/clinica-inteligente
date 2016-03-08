@@ -13,7 +13,7 @@
     "npm": "3.6.0"
   },
   "scripts": {
-    "preinstall": "./node_modules/bower/bin/bower install",
+    "preinstall": "bower install",
     "postinstall": "typings install",
     "start": "gulp",
     "test": "gulp test",
