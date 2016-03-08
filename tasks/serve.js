@@ -4,7 +4,12 @@ var config = require('../gulp.config')();
 
 /* Start live server dev mode */
 gulp.task('serve-dev', ['wiredep', 'tsc-app', 'watch-ts', 'watch-sass'], function () {
-    liveServer.start(config.liveServer.dev);
+    //liveServer.start(config.liveServer.dev);
+    connect.server({
+      root: [__dirname],
+      port: process.env.PORT || 5000, // localhost:5000
+      livereload: false
+    });
 });
 
 /* Start live server production mode */
