@@ -2,12 +2,13 @@ var gulp = require('gulp');
 var liveServer = require('live-server');
 var config = require('../gulp.config')();
 var connect = require('gulp-connect');
+var path = require('path');
 
 /* Start live server dev mode */
 gulp.task('serve-dev', ['wiredep', 'tsc-app', 'watch-ts', 'watch-sass'], function () {
     //liveServer.start(config.liveServer.dev);
     connect.server({
-      root: './index.html',
+      root: path.resolve('./'),
       port: process.env.PORT || 5000, // localhost:5000
       livereload: false
     });
