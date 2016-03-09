@@ -1,9 +1,9 @@
 {
-  "name": "angular2-starter",
-  "description": "Angular 2 Starter",
+  "name": "clinica-inteligente",
+  "description": "Clinica Inteligente",
   "main": "index.js",
   "authors": [
-    "Antony Budianto <antonybudianto@gmail.com>"
+    "Vitor Lopes <vitorplopeso@gmail.com>"
   ],
   "license": "ISC",
   "moduleType": [],
