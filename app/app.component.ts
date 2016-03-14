@@ -23,5 +23,6 @@ export class AppComponent {
           .map(res => res.text())
           .do(data => console.log(data))
           .subscribe();
+          console.log('asa');
     }
 }
