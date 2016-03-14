@@ -36,7 +36,7 @@ module.exports = function () {
     };
     var liveServer = {
         dev: {
-            port: process.env.PORT,
+            port: 3000,
             host: "127.0.0.1",
             open: '/',
             file: "index.html",
@@ -44,7 +44,7 @@ module.exports = function () {
             logLevel: 0
         },
         prod: {
-            port: process.env.PORT,
+            port: 3001,
             host: "127.0.0.1",
             root: 'build/',
             file: "index.html",
