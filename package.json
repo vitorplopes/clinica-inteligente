@@ -1,8 +1,8 @@
 {
-  "name": "angular2-starter",
+  "name": "clinica-inteligente",
   "version": "0.2.1",
-  "author": "Antony Budianto",
-  "description": "Angular 2 Starter with Gulp, Bower, Karma, Jasmine, Protractor using SystemJS",
+  "author": "Vitor Lopes",
+  "description": "Clinica Inteligente",
   "main": "index.html",
   "repository": {
     "type": "git",
